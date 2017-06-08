@@ -1,5 +1,5 @@
 {
-  "name": "CoreML.js",
+  "name": "coreml.js",
   "version": "1.0.0",
   "description": "A JavaScript helper library and soon runtime for Apple's .mlmodel format.",
   "main": "bin/index.js",

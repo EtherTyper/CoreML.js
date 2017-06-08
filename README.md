@@ -2,7 +2,7 @@
 
 A JavaScript helper library and soon runtime for Apple's .mlmodel format.
 
-Using the protobuf files for .mlmodel, available under the following license:
+Using the protobuf files for .mlmodel, available under the following New BSD-like license:
 
 ```
 Copyright (c) 2017, Apple Inc. All rights reserved.
