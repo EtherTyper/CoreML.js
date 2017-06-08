@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "google-protobuf": "^3.3.0"
+  },
+  "bin": {
+    "coreml-js": "./bin/cli.js"
   }
 }
