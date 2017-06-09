@@ -2,7 +2,15 @@
 
 A JavaScript helper library and soon runtime for Apple's .mlmodel format. Currently, I'm aiming for feature parity with the .mlmodel support built into the Xcode 9 Beta, and everything it displays, minus the generated Swift source code.
 
-Information:
+Features:
+- [X] Platform agnostic
+- [X] Self contained
+- [X] Extract individual values
+- [X] Table view
+- [X] Node.js API
+- [X] CLI with binary
+
+Information Supported:
 
 - Machine Learning Model
   - [X] Name
