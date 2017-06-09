@@ -1,3 +1,5 @@
+![CoreML.js in action!](screenshot.png)
+
 # CoreML.js
 
 A JavaScript helper library and soon runtime for Apple's .mlmodel format. Currently, I'm aiming for feature parity with the .mlmodel support built into the Xcode 9 Beta, and everything it displays, minus the generated Swift source code.
