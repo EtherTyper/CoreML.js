@@ -2,7 +2,7 @@
 
 import { Model } from '.'
 
-if (!(process.argv.length >= 4)) {
+if (process.argv.length < 4) {
   throw new TypeError("Missing parameters.");
 }
 
