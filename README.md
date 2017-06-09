@@ -1,6 +1,6 @@
 # CoreML.js
 
-A JavaScript helper library and soon runtime for Apple's .mlmodel format.
+A JavaScript helper library and soon runtime for Apple's .mlmodel format. Currently, I'm aiming for feature parity with the .mlmodel support built into the Xcode 9 Beta, and everything it displays, minus the generated Swift source code.
 
 Using the protobuf files for .mlmodel, available under the following New BSD-like license:
 
