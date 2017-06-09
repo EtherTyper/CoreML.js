@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { Model } from '.'
+import Table from 'cli-table'
 
 if (process.argv.length < 4) {
   throw new TypeError("Missing parameters.");
@@ -32,6 +33,21 @@ switch (commandParam) {
     break;
   case "description":
     console.log(model.description);
+    break;
+  case "show":
+    // instantiate
+    let table = new Table();
+    
+    table.push(
+      { "Name": model.name },
+      { "Type": model.type },
+      { "Size": `${model.size} bytes` },
+      { "Author": model.author },
+      { "License": model.license },
+      { "Description": model.description }
+    );
+    
+    console.log(table.toString());
     break;
   default:
     throw new TypeError("Invalid command.");
