@@ -1,6 +1,6 @@
 {
   "name": "coreml.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript helper library and soon runtime for Apple's .mlmodel format.",
   "main": "bin/index.js",
   "repository": "https://github.com/EtherTyper/CoreML.js",
