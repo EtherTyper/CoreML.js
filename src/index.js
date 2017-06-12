@@ -33,7 +33,7 @@ export class Model {
   }
   
   get specificModel() {
-    return this.model.wrappers_[this.model.getTypeCase()];
+    return new SpecificModel(this.model.wrappers_[this.model.getTypeCase()]);
   }
   
   get name() {
@@ -59,5 +59,11 @@ export class Model {
   
   get description() {
     return this.metadata.getShortdescription();
+  }
+}
+
+export class SpecificModel {
+  constructor(model) {
+    this.model = model;
   }
 }
