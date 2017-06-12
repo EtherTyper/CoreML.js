@@ -32,6 +32,10 @@ export class Model {
     return description.getMetadata();
   }
   
+  get specificModel() {
+    return this.model.wrappers_[this.model.getTypeCase()];
+  }
+  
   get name() {
     return path.basename(this.fileName, '.mlmodel');
   }
